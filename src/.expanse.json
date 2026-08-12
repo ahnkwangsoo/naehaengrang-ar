@@ -253,7 +253,10 @@
             "prefab": {
               "type": "entity",
               "id": "b534657a-38e6-4275-a37d-77b655561d5b"
-            }
+            },
+            "yawDegrees": 0,
+            "offsetX": 0,
+            "offsetZ": 0
           }
         }
       },
@@ -408,12 +411,12 @@
           "id": "a2c75775-5a0f-44d7-910c-c111bc850bf6",
           "name": "position-animation",
           "parameters": {
-            "fromY": -2,
+            "fromY": -1.5,
             "loop": false,
             "easeOut": true,
-            "easingFunction": "Elastic",
-            "duration": 2000,
-            "toY": 0.3
+            "easingFunction": "Quadratic",
+            "duration": 900,
+            "toY": 0
           }
         }
       },
