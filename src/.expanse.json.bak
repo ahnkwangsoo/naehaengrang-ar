@@ -129,8 +129,7 @@
           "xrCameraType": "world",
           "phone": "AR",
           "desktop": "disabled",
-          "headset": "disabled",
-          "scale": "absolute"
+          "headset": "disabled"
         }
       },
       "order": 2.1029089692509704
@@ -544,6 +543,39 @@
       "ui": {
         "type": "overlay"
       }
+    },
+    "d79b52a9-617e-4a82-b144-a25d7ebd3464": {
+      "id": "d79b52a9-617e-4a82-b144-a25d7ebd3464",
+      "position": [
+        -2.5680098284261312,
+        0,
+        1.4509587854327552
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/naehaengrang.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "naehaengrang.glb",
+      "order": 17.66055813755716
     }
   },
   "spaces": {
